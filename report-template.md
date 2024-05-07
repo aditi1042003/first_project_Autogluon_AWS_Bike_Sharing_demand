@@ -25,14 +25,13 @@ Hour of usage really affected the renal frequency therefore this feature was add
  
  my score improved from 1.80 in intial submission to 0.62 with additional features , this was because due to better representation of categorical values to AutoGluon and addion of hour feature in dataset.
  original features:
- 	Types of features in processed data (raw dtype, special dtypes):
-		('float', [])                : 3 | ['temp', 'atemp', 'windspeed']
-		('int', [])                  : 3 | ['season', 'weather', 'humidity']
+		* ('float', [])                : 3 | ['temp', 'atemp', 'windspeed']
+		* ('int', [])                  : 3 | ['season', 'weather', 'humidity']
  Modified and Added:
-    Types of features in processed data (raw dtype, special dtypes):
-		('category', [])             : 2 | ['season', 'weather']
-		('float', [])                : 3 | ['temp', 'atemp', 'windspeed']
-		('int', [])                  : 2 | ['humidity', 'hour']
+
+		* ('category', [])             : 2 | ['season', 'weather']
+		* ('float', [])                : 3 | ['temp', 'atemp', 'windspeed']
+		* ('int', [])                  : 2 | ['humidity', 'hour']
 
 
 ## Hyper parameter tuning
@@ -49,18 +48,17 @@ i want to perform more EDA and train on multiple hyperparameters like differnt d
 |0	|initial	|600	|default	|default	|1.80|
 |1	|add_features|	600	|default	|default	|0.62|
 |2	|hpo|	600|	100|	10|	0.47|
-|model|hpo1|hpo2|hpo3|score|
 
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-TODO: Replace the image below with your own.
+
 
 ![model_train_score.png](img/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-TODO: Replace the image below with your own.
+
 
 ![model_test_score.png](img/model_test_score.png)
 
