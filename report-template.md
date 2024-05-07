@@ -25,7 +25,8 @@ Hour of usage really affected the renal frequency therefore this feature was add
  
  my score improved from 1.80 in intial submission to 0.62 with additional features , this was because due to better representation of categorical values to AutoGluon and addion of hour feature in dataset.
  original features:
-		* ('float', [])                : 3 | ['temp', 'atemp', 'windspeed']
+ 
+ 		* ('float', [])                : 3 | ['temp', 'atemp', 'windspeed']
 		* ('int', [])                  : 3 | ['season', 'weather', 'humidity']
  Modified and Added:
 
