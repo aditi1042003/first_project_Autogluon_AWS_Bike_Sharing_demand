@@ -7,7 +7,7 @@
  2) submissions need to be submited in specified format(dataframe as SampleSubmission.csv) given by competion rules
 
 ### What was the top ranked model that performed?
-  hpo( hyperparameter tuned model) performed best with score of 0.47
+  The WeightedEnsemble_L3 performed best with scovre val of -30.28 , in added features set training.
   
 
 ## Exploratory data analysis and feature creation
@@ -45,7 +45,7 @@ i want to perform more EDA and train on multiple hyperparameters like differnt d
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 
 |model|	time|	num_boost_rounds|	num_echos|	score|
-|--|--|--|--|--
+|--|--|--|--|--|
 |0	|initial	|600	|default	|default	|1.80|
 |1	|add_features|	600	|default	|default	|0.62|
 |2	|hpo|	600|	100|	10|	0.47|
