@@ -7,7 +7,7 @@
  2) submissions need to be submited in specified format(dataframe as SampleSubmission.csv) given by competion rules
 
 ### What was the top ranked model that performed?
-  hpo( hyperparameter tuned model) performed best with score of 0.47
+ The WeightedEnsemble_L3 performed best with scovre val of -30.28 , in added features set training.
   
 
 ## Exploratory data analysis and feature creation
