@@ -7,7 +7,7 @@
  2) submissions need to be submited in specified format(dataframe as SampleSubmission.csv) given by competion rules
 
 ### What was the top ranked model that performed?
-  The WeightedEnsemble_L3 performed best with scovre val of -30.28 , in added features set training.
+  The WeightedEnsemble_L3 performed best with score val of -30.28 . 
   
 
 ## Exploratory data analysis and feature creation
